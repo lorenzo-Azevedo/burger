@@ -1,3 +1,5 @@
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY ''
+
 CREATE DATABASE if not exists burgers_db;
 USE burgers_db;
 
